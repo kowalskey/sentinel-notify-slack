@@ -8,4 +8,4 @@ SCRIPT="./sentinel-notify-slack.rb"
 CONFIG="config.yml"
 
 # use noninteractive login shell to ensure rbenv/rvm works
-bash -lc "$SCRIPT -c $CONFIG -- "$@""
+bash -lc "$SCRIPT -c $CONFIG -- \"$@\""
